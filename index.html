@@ -457,18 +457,21 @@
         <div class="modal-subs">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <div class="subscribe-field">
-              <label>
-                <input type="text" class="subscribe-input" name="name" />
-                <span class="subscribe-label">Email</span>
-              </label>
-            </div>
-            <div class="subscribe-wrapper">
-              <button type="submit" class="subscribe-button">Subscribe</button>
+            <label class="subscribe-field">
+              <input
+                type="emeil"
+                class="subscribe-input"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button type="submit" class="subscribe-button">
+              Subscribe
               <svg width="24" height="24" class="subscribe-icon">
                 <use href="./images/icons.svg#icon-frame"></use>
               </svg>
-            </div>
+            </button>
           </form>
         </div>
       </div>
